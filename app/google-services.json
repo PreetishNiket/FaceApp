@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "388042211954",
+    "project_id": "faceapp-79171",
+    "storage_bucket": "faceapp-79171.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388042211954:android:41a7a95dd9a0e44d24b8eb",
+        "android_client_info": {
+          "package_name": "com.example.faceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388042211954-mgsess8k0i0oi73vsqi5loul39gm58n8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.faceapp",
+            "certificate_hash": "65649f6ede78ab7d76017faf27cbf8edf7fe4b34"
+          }
+        },
+        {
+          "client_id": "388042211954-kbbm5185ijj4iikeddnkj5s98p3d9ffc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9aTdm6QChS8o5NBGRePjoRCQdKewp-uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388042211954-kbbm5185ijj4iikeddnkj5s98p3d9ffc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
