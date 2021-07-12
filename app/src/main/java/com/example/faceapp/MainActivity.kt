@@ -19,14 +19,15 @@ class MainActivity : AppCompatActivity() {
         FirebaseApp.initializeApp(this)
         val faceDetector:Button=findViewById(R.id.face_detect)
         faceDetector.setOnClickListener {
-                val intent =Intent(MediaStore.ACTION_IMAGE_CAPTURE)
-            if (intent.resolveActivity(packageManager)!=null){
-                startActivityForResult(intent,124)
-            }
-            else{
-                Toast.makeText(this, "Something went wrong",
-                        Toast.LENGTH_SHORT).show()
-            }
+//                val intent =Intent(MediaStore.ACTION_IMAGE_CAPTURE)
+//            if (intent.resolveActivity(packageManager)!=null){
+//                startActivityForResult(intent,124)
+//            }
+//            else{
+//                Toast.makeText(this, "Something went wrong",
+//                        Toast.LENGTH_SHORT).show()
+//            }
+            startActivity(Intent(this,FaceDetectionActivity::class.java))
         }
 
     }
